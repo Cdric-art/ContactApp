@@ -13,7 +13,6 @@
 		A70C63DA263AB216000EBAE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A70C63D9263AB216000EBAE4 /* Preview Assets.xcassets */; };
 		A70C63E5263AB6D4000EBAE4 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70C63E4263AB6D4000EBAE4 /* ContactModel.swift */; };
 		A70C63E7263AB817000EBAE4 /* DetailContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70C63E6263AB817000EBAE4 /* DetailContactView.swift */; };
-		A70C63F1263ABD9F000EBAE4 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = A70C63F0263ABD9F000EBAE4 /* screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +24,6 @@
 		A70C63DB263AB216000EBAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A70C63E4263AB6D4000EBAE4 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
 		A70C63E6263AB817000EBAE4 /* DetailContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContactView.swift; sourceTree = "<group>"; };
-		A70C63ED263ABCFC000EBAE4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../../Web/card-whire/README.md"; sourceTree = "<group>"; };
-		A70C63F0263ABD9F000EBAE4 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot.png; path = ../../../../../Desktop/screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +61,6 @@
 				A70C63D2263AB214000EBAE4 /* ContactApp.swift */,
 				A70C63D6263AB216000EBAE4 /* Assets.xcassets */,
 				A70C63DB263AB216000EBAE4 /* Info.plist */,
-				A70C63EE263ABCFC000EBAE4 /* assetsMD */,
-				A70C63ED263ABCFC000EBAE4 /* README.md */,
 				A70C63D8263AB216000EBAE4 /* Preview Content */,
 			);
 			path = Contact;
@@ -94,14 +89,6 @@
 				A70C63E6263AB817000EBAE4 /* DetailContactView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		A70C63EE263ABCFC000EBAE4 /* assetsMD */ = {
-			isa = PBXGroup;
-			children = (
-				A70C63F0263ABD9F000EBAE4 /* screenshot.png */,
-			);
-			path = assetsMD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +149,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A70C63DA263AB216000EBAE4 /* Preview Assets.xcassets in Resources */,
-				A70C63F1263ABD9F000EBAE4 /* screenshot.png in Resources */,
 				A70C63D7263AB216000EBAE4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
