@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		A70C63D3263AB214000EBAE4 /* ContactApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70C63D2263AB214000EBAE4 /* ContactApp.swift */; };
-		A70C63D5263AB214000EBAE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70C63D4263AB214000EBAE4 /* ContentView.swift */; };
+		A70C63D5263AB214000EBAE4 /* ContactHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70C63D4263AB214000EBAE4 /* ContactHomeView.swift */; };
 		A70C63D7263AB216000EBAE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A70C63D6263AB216000EBAE4 /* Assets.xcassets */; };
 		A70C63DA263AB216000EBAE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A70C63D9263AB216000EBAE4 /* Preview Assets.xcassets */; };
+		A70C63E5263AB6D4000EBAE4 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70C63E4263AB6D4000EBAE4 /* ContactModel.swift */; };
+		A70C63E7263AB817000EBAE4 /* DetailContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70C63E6263AB817000EBAE4 /* DetailContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A70C63CF263AB214000EBAE4 /* Contact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A70C63D2263AB214000EBAE4 /* ContactApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactApp.swift; sourceTree = "<group>"; };
-		A70C63D4263AB214000EBAE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A70C63D4263AB214000EBAE4 /* ContactHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactHomeView.swift; sourceTree = "<group>"; };
 		A70C63D6263AB216000EBAE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A70C63D9263AB216000EBAE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A70C63DB263AB216000EBAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A70C63E4263AB6D4000EBAE4 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		A70C63E6263AB817000EBAE4 /* DetailContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,9 @@
 		A70C63D1263AB214000EBAE4 /* Contact */ = {
 			isa = PBXGroup;
 			children = (
+				A70C63E3263AB339000EBAE4 /* View */,
+				A70C63E2263AB2B4000EBAE4 /* Model */,
 				A70C63D2263AB214000EBAE4 /* ContactApp.swift */,
-				A70C63D4263AB214000EBAE4 /* ContentView.swift */,
 				A70C63D6263AB216000EBAE4 /* Assets.xcassets */,
 				A70C63DB263AB216000EBAE4 /* Info.plist */,
 				A70C63D8263AB216000EBAE4 /* Preview Content */,
@@ -67,6 +72,23 @@
 				A70C63D9263AB216000EBAE4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A70C63E2263AB2B4000EBAE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A70C63E4263AB6D4000EBAE4 /* ContactModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A70C63E3263AB339000EBAE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A70C63D4263AB214000EBAE4 /* ContactHomeView.swift */,
+				A70C63E6263AB817000EBAE4 /* DetailContactView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A70C63D5263AB214000EBAE4 /* ContentView.swift in Sources */,
+				A70C63E7263AB817000EBAE4 /* DetailContactView.swift in Sources */,
+				A70C63D5263AB214000EBAE4 /* ContactHomeView.swift in Sources */,
 				A70C63D3263AB214000EBAE4 /* ContactApp.swift in Sources */,
+				A70C63E5263AB6D4000EBAE4 /* ContactModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
